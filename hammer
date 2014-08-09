@@ -25,4 +25,4 @@ done
 SCONS="${SRC_DIR}/third_party/scons/scons.py"
 SITE_SCONS="${SRC_DIR}/site_scons"
 
-exec python "${SCONS}" "--site-dir=${SITE_SCONS}" "$@"
+exec python2 "${SCONS}" "--site-dir=${SITE_SCONS}" "$@"
